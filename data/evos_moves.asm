@@ -417,7 +417,7 @@ Mon009_EvosMoves:
 	db 28,WATER_PULSE
 	db 32,AQUA_TAIL
 	db 36,FLASH_CANNON ; Evolution Move
-	db 39,SKULL_BASH
+	db 39,ICE_BEAM
 	db 46,IRON_DEFENSE
 	db 53,MIST ; Rain Dance → New Move
 	db 60,HYDRO_PUMP
@@ -661,7 +661,7 @@ Mon022_EvosMoves:
 	db 18,SONICBOOM ; Mirror Move → Event Move
 	db 27,AGILITY
 	db 32,STEEL_WING ; Focus Energy → TM Move
-	db 36,REST ; Roost → Other healing move
+	db 36,RECOVER ; Roost → Other healing move
 	db 41,DRILL_PECK
 	db 45,AIR_SLASH ; Drill Run → New move
 	db 0
@@ -721,7 +721,7 @@ Mon025_EvosMoves:
 ;Learnset
 	db 1,THUNDERSHOCK
 	db 1,TAIL_WHIP
-	db 5,GROWL
+	db 5,LOVELY_KISS
 	db 7,BABYDOLLEYES ; Play Nice → Similar Move
 	db 10,QUICK_ATTACK
 	db 13,ELECTRO_BALL
@@ -760,7 +760,7 @@ Mon026_EvosMoves:
 	db 42,THUNDERBOLT
 	db 45,AGILITY
 	db 50,LIGHT_SCREEN ; Wild Charge → Light Screen
-	db 53,THUNDER ; Light Screen → Thunder
+	db 53,SURF ; Light Screen → Thunder
 	db 58,VOLT_TACKLE ; Thunder → Event Move
 	db 0
 
@@ -807,7 +807,7 @@ Mon028_EvosMoves:
 	db 24,SUPER_FANG ; Sand Tomb → HGSS Tutor Move
 	db 28,METAL_CLAW ; Slash → TM Move
 	db 33,DIG
-	db 38,IRON_DEFENSE ; Gyro Ball → New Move
+	db 38,ROCK_SLIDE ; Gyro Ball → New Move
 	db 43,SWORDS_DANCE
 	db 48,IRON_TAIL ; Sandstorm → TM Move
 	db 53,EARTHQUAKE
@@ -1431,10 +1431,10 @@ Mon055_EvosMoves:
 	db 28,AQUA_TAIL
 	db 31,MUDDY_WATER ; Soak → new move
 	db 33,POWER_GEM ; new move
-	db 36,PSYBEAM ; Psych Up → egg move
+	db 36,PSYCHIC_M ; Psych Up → egg move
 	db 41,AMNESIA
 	db 46,HYDRO_PUMP
-	db 51,PSYCHIC_M ; Wonder Room → TM move
+	db 51,PETAL_DANCE ; Wonder Room → TM move
 	db 0
 
 Mon056_EvosMoves:
@@ -1479,9 +1479,9 @@ Mon057_EvosMoves:
 	db 22,CROSS_CHOP
 	db 26,STORM_THROW ; Assurance → new move
 	db 30,FEINT_ATTACK ; Punishment → new move
-	db 35,THRASH
+	db 35,ROCK_SLIDE
 	db 39,DYNAMICPUNCH ; Close Combat → TM Move
-	db 44,SCREECH
+	db 44,EARTHQUAKE
 	db 48,GUNK_SHOT ; Stomping Tantrum → HGSS tutor move
 	db 53,OUTRAGE
 	db 0
@@ -1631,7 +1631,7 @@ Mon064_EvosMoves:
 	db 26,REFLECT
 	db 28,PSYCHO_CUT
 	db 31,RECOVER
-	db 33,BARRIER ; Telekinesis → egg move
+	db 33,THUNDER_WAVE ; Telekinesis → egg move
 	db 36,SHADOW_BALL ; Ally Switch → TM move
 	db 38,PSYCHIC_M
 	db 41,FOCUS_ENERGY ; Calm Mind → new move
@@ -1655,7 +1655,7 @@ Mon065_EvosMoves:
 	db 26,REFLECT
 	db 28,PSYCHO_CUT
 	db 31,RECOVER
-	db 33,BARRIER ; Telekinesis → egg move
+	db 33,THUNDER_WAVE ; Telekinesis → egg move
 	db 36,SHADOW_BALL ; Ally Switch → TM move
 	db 38,PSYCHIC_M
 	db 41,FOCUS_ENERGY ; Calm Mind → new move
@@ -1735,7 +1735,7 @@ Mon068_EvosMoves:
 	db 43,DOUBLE_TEAM ; Bulk Up → TM move
 	db 47,CROSS_CHOP
 	db 53,DOUBLE_EDGE ; Scary Face → tutor move
-	db 57,DYNAMICPUNCH
+	db 57,ROCK_SLIDE
 	db 0
 
 Mon069_EvosMoves:
@@ -1799,7 +1799,7 @@ Mon071_EvosMoves:
 	db 39,HEALINGLIGHT ; Gastro Acid → new move
 	db 44,RAZOR_LEAF
 	db 47,POISON_JAB
-	db 54,SLAM
+	db 54,SWORDS_DANCE
 	db 58,LEAF_BLADE ; Wring Out → Victreebel move
 	db 0
 
@@ -1845,7 +1845,7 @@ Mon073_EvosMoves:
 	db 28,BARRIER
 	db 32,POISON_JAB
 	db 36,WHIRLPOOL ; Brine → TM Move
-	db 40,SCREECH
+	db 40,RECOVER
 	db 44,HEX
 	db 48,SLUDGE_WAVE
 	db 52,HYDRO_PUMP
